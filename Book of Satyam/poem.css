@@ -1,0 +1,30 @@
+.container{
+    padding: 0 0 55px 0;
+}
+.main-1box{
+    width: 100%;
+    height: auto;
+}
+.main-1box img{
+    width: 100%;
+    height: 50vh;
+}
+.power h3{
+    text-align: center;
+    font-style: italic;
+    padding: 55px 0 0 0;
+}
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .main-1box{
+        width: auto;
+        margin: 20px 10px;
+        
+    }
+}
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .power h3{
+        width: auto;
+        padding: 10px 0 0 0 ;
+        
+    }
+}

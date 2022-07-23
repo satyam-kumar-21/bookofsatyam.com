@@ -1,0 +1,91 @@
+.body-main-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: space-around;
+    padding: 1.5% 5% 1.5% 5%;
+
+}
+.left-div{
+   background: url(image/my\ pic.jpeg);
+   background-size: 100% 100%;
+   
+    width: 100%;
+    height: 50vh;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.body{
+   /* background: url(image/about.jpg);*/
+   background-color: rgb(230, 224, 224);
+    background-size: cover;
+    
+    
+}
+
+.right-div{
+    width: 100%;
+    height: 50vh;
+   text-align: center;
+   padding: 5% 5% 5% 5%;
+  
+   
+}
+.author-details-line{
+    background-color: black;
+    color: white;
+}
+.about-u{
+    background-color: blue;
+    color: rgb(242, 0, 0);
+}
+.container{
+    padding: 0 0 6% 0;
+    
+}
+.aa{
+    padding: 0 0 3% 0;
+}
+
+.bos{
+    text-align: center;
+   
+    padding: 60px 0 0 0;
+   
+}
+.achievement{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+.achiev{
+    font-style: italic;
+    width: 100%;
+    height: 50vh;
+}
+
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .body-main-div{
+        width: 100%;
+       flex-direction: column;
+        
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .pic1{
+        width: 100%;
+       flex-direction: column;
+   margin: 100px 0 0 0;
+        
+    }
+}
+
+
+
+
+
+
